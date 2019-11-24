@@ -1,0 +1,21 @@
+{
+  "description": "Installs CDPE ready for configuration",
+  "parameters": {
+    "dbserver": {
+      "description": "The database server for CDPE",
+      "type": "String"
+    },
+    "database": {
+      "description": "The database name on the database server for CDPE",
+      "type": "String"
+    },
+    "user": {
+      "description": "The user to access the database",
+      "type": "String"
+    },
+    "pass": {
+      "description": "The password for the user to access the database",
+      "type": "String"
+    }
+  }
+}

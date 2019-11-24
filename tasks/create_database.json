@@ -1,0 +1,25 @@
+{
+    "description": "Creates a MySQL Server database and user",
+    "parameters": {
+      "mysqluser": {
+        "description": "The username for the MySQL user who will create the cdpe database and user",
+        "type": "String"
+      },
+      "mysqlpass": {
+        "description": "The password for the MySQL user who will create the cdpe database and user",
+        "type": "String"
+      },
+      "database": {
+        "description": "The database name to be created",
+        "type": "String"
+      },
+      "user": {
+        "description": "The user to be created",
+        "type": "String"
+      },
+      "pass": {
+        "description": "The password for the user to be created",
+        "type": "String"
+      }
+    }
+  }
