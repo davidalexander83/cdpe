@@ -1,0 +1,9 @@
+{
+    "description": "Installs MySQL Server 5.7",
+    "parameters": {
+     "password": {
+       "description": "The root password for the MySQL Server instance",
+       "type": "String"
+     }
+    }
+  }
