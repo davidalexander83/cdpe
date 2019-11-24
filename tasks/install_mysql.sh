@@ -53,3 +53,5 @@ sudo expect ~/secure_our_mysql.sh
 rm -v ~/secure_our_mysql.sh
 sudo snap remove expect
 sudo systemctl enable mysql
+sudo sed -i 's/127.0.0.1/0.0.0.0/g' /etc/mysql/mysql.conf.d/mysqld.cnf
+sudo systemctl restart mysql
